@@ -39,7 +39,7 @@
 									</div>
 								</div>
 								<canvas id="newClient"></canvas>
-								<div class="line-chart-row-title">Total Students</div>
+								<div class="line-chart-row-title">Total Collectors</div>
 							</div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
@@ -51,7 +51,7 @@
 									</div>
 								</div>
 								<canvas id="allProducts"></canvas>
-								<div class="line-chart-row-title">Total Lecturers</div>
+								<div class="line-chart-row-title">Total Stores</div>
 							</div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
@@ -75,7 +75,7 @@
 									</div>
 								</div>
 								<canvas id="projects"></canvas>
-								<div class="line-chart-row-title">Departments</div>
+								<div class="line-chart-row-title">Containers</div>
 							</div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
@@ -87,7 +87,7 @@
 									</div>
 								</div>
 								<canvas id="orderRecieved"></canvas>
-								<div class="line-chart-row-title">Courses</div>
+								<div class="line-chart-row-title">Food Joints</div>
 							</div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
@@ -99,7 +99,7 @@
 									</div>
 								</div>
 								<canvas id="transactions"></canvas>
-								<div class="line-chart-row-title">Faculties</div>
+								<div class="line-chart-row-title">Facilities</div>
 							</div>
 						</div>
 					</div>
@@ -125,8 +125,8 @@
 									<div class="card sale-diffrence-border">
 										<div class="card-body">
 											<h2 class="text-dark mb-2 font-weight-bold">$6475</h2>
-											<h4 class="card-title mb-2">Sales Difference</h4>
-											<small class="text-muted">APRIL 2019</small>
+											<h4 class="card-title mb-2">Collection Statistics</h4>
+											<small class="text-muted">APRIL 2022</small>
 										</div>
 									</div>
                                 </div>
@@ -135,8 +135,8 @@
 									<div class="card sale-visit-statistics-border">
 										<div class="card-body">
 											<h2 class="text-dark mb-2 font-weight-bold">$3479</h2>
-											<h4 class="card-title mb-2">Visit Statistics</h4>
-											<small class="text-muted">APRIL 2019</small>
+											<h4 class="card-title mb-2">Payment Statistics</h4>
+											<small class="text-muted">APRIL 2022</small>
 										</div>
 									</div>
                                 </div>
@@ -157,7 +157,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex align-items-center justify-content-between">
-												<h4 class="card-title mb-2">Sales Difference</h4>
+												<h4 class="card-title mb-2">Collection Statistics </h4>
 												<div class="dropdown">
 													<a href="#" class="text-success btn btn-link  px-1"><i class="mdi mdi-refresh"></i></a>
 													<a href="#" class="text-success btn btn-link px-1 dropdown-toggle dropdown-arrow-none" data-toggle="dropdown" id="settingsDropdownsales">

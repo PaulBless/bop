@@ -28,13 +28,13 @@
 						<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 mb-4 mb-xl-0">
 							<div class="d-lg-flex ">
 								<div style="margin-left: 30px">
-                                    <h2 class="text-dark font-weight-bold mb-2 ">Students</h2>
+                                    <h2 class="text-dark font-weight-bold mb-2 ">Categories</h2>
 								</div>
 							</div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 mb-4 mb-xl-0" >
                             <div class="d-lg-flex">
-                                <a href="" data-toggle="modal" data-target="#add_student" class="new_student btn btn-primary font-weight-bold mb-3" style="float: right; "><i class="mdi mdi-account-plus"> </i> Add New Student</a>
+                                <a href="" data-toggle="modal" data-target="#add_student" class="add_new btn btn-primary font-weight-bold mb-3" style="float: right; "><i class="mdi mdi-account-plus"> </i> Add New Category</a>
                             </div>
                         </div>
                         <hr class="border-info">
@@ -156,7 +156,7 @@
         <script>
           $(document).ready(function(){
             //trigger add new button click
-            $('.new_student').click(function(){
+            $('.add_new').click(function(){
                 start_load();
                 setTimeout(function(){
                     end_load();

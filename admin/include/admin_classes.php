@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 require '../functions/db_connect.php';  ## require db connection
 
@@ -39,11 +40,10 @@ function addUser()
 	$image_name = addslashes($_FILES['image']['name']);
 	$image_size = getimagesize($_FILES['image']['tmp_name']);
 		
-	move_uploaded_file($_FILES["image"]["tmp_name"],"../uploads/" . $_FILES["image"]["name"]);			
-    $image_location="../uploads/" . $_FILES["image"]["name"];
+	move_uploaded_file($_FILES["image"]["tmp_name"],"../../uploads/" . $_FILES["image"]["name"]);			
+    $image_location="../../uploads/" . $_FILES["image"]["name"];
 
     require '../functions/db_connect.php';  ## require db connection
-    // require '../template/scripts.php';
 
     ## prepare sql statement to select record from db
 	$sql = "SELECT * FROM `admin` WHERE `reg_no`='$new_reg_no' OR `loginid`='$loginid' OR `firstname`='$save_firstname' OR `lastname`='$save_lastname'";   //sql statement

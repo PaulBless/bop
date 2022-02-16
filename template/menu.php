@@ -1,13 +1,15 @@
 <nav class="bottom-navbar navbar-light bg-white">
         <div class="container">
             <ul class="nav page-navigation ">
+
               <li class="nav-item">
-                <a class="nav-link" href="home">
+                <a class="nav-link" href="dashboard">
                   <i class="mdi mdi-file-document-box menu-icon"></i>
                   <span class="menu-title">Dashboard</span>
                 </a>
               </li>
-              <li class="nav-item">
+
+              <li class="nav-item " style="display:none">
                   <a href="#" class="nav-link">
                     <i class="mdi mdi-cube-outline menu-icon"></i>
                     <span class="menu-title">Settings</span>
@@ -25,7 +27,8 @@
                       </ul>
                   </div>
               </li>
-              <li class="nav-item">
+
+              <li class="nav-item d-none">
                   <a href="" class="nav-link">
                     <i class="mdi mdi-school menu-icon"></i>
                     <span class="menu-title">Students</span>
@@ -35,21 +38,37 @@
                       <ul>
                           <li class="nav-item"><a class="nav-link" href="new-student" >Add New</a></li>
                           <li class="nav-item"><a class="nav-link" href="students">Students List</a></li>
-                          <!-- <li class="nav-item"><a class="nav-link" href="">Courses</a></li> -->
 
                       </ul>
                   </div>
-              </li>
+              </li>  
+              
+              <!-- categories  -->
               <li class="nav-item">
                   <a href="" class="nav-link">
-                    <i class="mdi mdi-account-multiple menu-icon"></i>
-                    <span class="menu-title">Lecturers</span>
+                    <i class="mdi mdi-tag-multiple menu-icon"></i>
+                    <span class="menu-title">Categories</span>
                     <i class="menu-arrow"></i>
                   </a>
                   <div class="submenu">
                       <ul>
-                          <li class="nav-item"><a class="nav-link" href="add-lecturer" >Add New</a></li>
-                          <li class="nav-item"><a class="nav-link" href="lecturers">Lecturers List</a></li>
+                          <li class="nav-item"><a class="nav-link" href="add-category" >Add New</a></li>
+                          <li class="nav-item"><a class="nav-link" href="categories">Category List</a></li>
+
+                      </ul>
+                  </div>
+              </li>
+
+              <li class="nav-item">
+                  <a href="" class="nav-link">
+                    <i class="mdi mdi-receipt menu-icon"></i>
+                    <span class="menu-title">Receipts</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+                  <div class="submenu">
+                      <ul>
+                          <li class="nav-item"><a class="nav-link" href="add-receipt" >Add New</a></li>
+                          <li class="nav-item"><a class="nav-link" href="receipts">Receipts List</a></li>
                       </ul>
                   </div>
               </li>
@@ -71,19 +90,16 @@
               <li class="nav-item">
                   <a href="school-fees" class="nav-link">
                     <i class="mdi mdi-finance menu-icon"></i>
-                    <span class="menu-title">School Fees</span>
+                    <span class="menu-title"> Fees & Charges</span>
                     <i class="menu-arrow"></i>
                   </a>
               </li>
-              <li class="nav-item">
-                  <a href="posts-news" class="nav-link">
-                    <i class="mdi mdi-format-list-bulleted menu-icon"></i>
-                    <span class="menu-title">Post & News</span></a>
-              </li>
+              
               <li class="nav-item">
                   <a href="users" class="nav-link">
-                    <i class="mdi mdi-human-male-female menu-icon"></i>
-                    <span class="menu-title">Users</span></a>
+                    <i class="mdi mdi-account-multiple menu-icon"></i>
+                    <span class="menu-title">Users</span>
+                  </a>
               </li>
             </ul>
         </div>

@@ -4,12 +4,12 @@
 RewriteEngine on
 
 ##add application base path
-##RewriteBase /osip/
+##RewriteBase /bop/index
 
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}.php -f
-#RewriteRule ^(.*)$ $1.php
-#RewriteRule ^([a-z]+)\/?$ $1.php [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^([a-z]+)\/?$ $1.php [NC]
 
 
 </IfModule>
