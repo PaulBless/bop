@@ -145,7 +145,7 @@
                     <div class="col-lg-6 d-flex align-items-center justify-content-center bg-darkk">
                         <div class="auth-form-transparent text-left p-2">
                         <div class="brand-logo">
-                            <h2 class="text-primary text-center font-weight-bold mb-2"> Revenue Collection Portal </h2>
+                            <h2 class="text-primary text-center font-weight-bold mb-2"> Business Operating Permit Portal </h2>
                         <!-- </div> -->
 
                         <hr class="border-light">
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 login-half-bg d-flex flex-row">
-                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2022 - All rights reserved | Online Revenue Collection Portal.</p>
+                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2022 - All rights reserved | Business Operating Permit Portal.</p>
                     </div>
                     </div>
                 </div>
