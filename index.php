@@ -57,14 +57,14 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="signin">sign in</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">portfolio</a>
+              <a class="nav-link" href="#features">features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li> -->
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin">sign in</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -146,7 +146,7 @@
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
-                        <h3>design.</h3>
+                        <h3>billing.</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type specimen book. It has survived not only five</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                         <i class="fa fa-cogs" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
-                        <h3>Web Designing.</h3>
+                        <h3>collection.</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type of the printing and scrambled it to of the printing and scrambled it to . It has survived not only five</p>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                         <i class="fa fa-code" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
-                        <h3>coding.</h3>
+                        <h3>payments.</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type specimen book. It has survived not only five</p>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
     </div>
 </section>
 
-<section class="blog">
+<section class="blog" id="features">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 heading">
@@ -192,13 +192,13 @@
                        <div class="image-one">
                            <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">design</a></h4>
+                               <h4><a href="javascript:void(0)">User Friendly</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(0)">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="javascript:void(0)">Simple and Easy User Interface</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
  					   </div>
                     </div>
@@ -210,13 +210,13 @@
                        <div class="image-one">
                            <img src="jumper/images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">fashion</a></h4>
+                               <h4><a href="javascript:void(0)">sms </a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(0)">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="javascript:void(0)">SMS Notification</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
  					   </div>
                     </div>
@@ -230,13 +230,13 @@
                        <div class="image-one">
                            <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">design</a></h4>
+                               <h4><a href="javascript:void(0)">database backup</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(0)">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="javascript:void(0)">automatic database backups</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
  					   </div>
                     </div>
@@ -248,13 +248,13 @@
                        <div class="image-one">
                            <img src="jumper/images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">fashion</a></h4>
+                               <h4><a href="javascript:void(0)">customized reports</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(00">Girl working seriously on laptop in office hours</a></h5>
+ 	            		   <h5><a href="javascript:void(00">generate custom reports and statistics</a></h5>
  						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
  					   </div>
                     </div>
