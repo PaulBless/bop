@@ -56,12 +56,12 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#features">features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="signin">sign in</a>
             </li>
