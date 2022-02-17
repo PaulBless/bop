@@ -160,7 +160,7 @@
             <div class="col-sm-4 col2">
                 <div class="row">
                     <div class="col-sm-2 box1">
-                        <i class="fa fa-bookmark" aria-hidden="true"></i>
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
                         <h3>collection.</h3>
@@ -171,7 +171,7 @@
             <div class="col-sm-4 col3">
                 <div class="row">
                     <div class="col-sm-2 box1">
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <i class="fa fa-money" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
                         <h3>payments.</h3>
@@ -196,7 +196,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-web.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
                                <h4><a href="javascript:void(0)">Fully Responsive</a></h4>
                              </div>
@@ -214,7 +214,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-3.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-msg.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
                                <h4><a href="javascript:void(0)">sms integration</a></h4>
                              </div>
@@ -223,7 +223,7 @@
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
  	            		   <h5><a href="javascript:void(0)">SMS Notification</a></h5>
- 						   <p>SMS notification is integrated to facilitate easy communication between business owners and the assembly on status of BOP payments.</p>
+ 						    <p>SMS notification is integrated to facilitate easy communication between business owners and the assembly on status of BOP payments.</p>
  					   </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-login.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
                                <h4><a href="javascript:void(0)">fully secured</a></h4>
                              </div>
@@ -252,7 +252,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-report1.jpg" alt="" class="img-thumbnail blog-5">
                              <div class="text-block"> 
                                <h4><a href="javascript:void(0)"> reports</a></h4>
                              </div>
@@ -260,7 +260,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            	<h5><a href="javascript:void(00"> Custom Reports and Statistics</a></h5>
+ 	            	<h5><a href="javascript:void(0)"> Custom Reports and Statistics</a></h5>
  						    <p>Reports can be generated in various forms; you can apply filtering based on date, time and amounts. View payments history and statistics.</p>
  					   </div>
                     </div>
