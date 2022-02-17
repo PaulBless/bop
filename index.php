@@ -25,6 +25,23 @@
       .carousel-indicators > li {
         cursor: pointer;
       }
+      .top-container .col2 h5 {
+        font-weight: bold;
+        color: #2cbf84 !important;
+        font-size: 11px;
+        padding: 9px 0;
+        text-transform: uppercase;
+      }
+
+      /* 768px Media Queries Styles */
+      @media screen and (max-width: 768px) {
+        .top-container .col2 h5 {font-size: 10px;padding: 9px 0;}
+      }
+      /* 425px Media Queries Styles */
+      @media screen and (max-width: 425px) {
+        .top-container .col2 h5 {font-size: 9px;}
+      }
+
     </style>
   </head>
 
@@ -38,7 +55,7 @@
             <div class="col-sm-6 col-7 col2">
                 <div class="row">
                   <div class="col-sm-12">
-                     <small class="text-uppercase text-success" style="letter-spacing: 1px; ">upper west akim district assembly</small>
+                     <h5>upper west akim district assembly</small>
                       <!-- <a href="https://web.facebook.com/uwadadistrictassembly"><i class="fa fa-facebook-official" target="_blank" aria-hidden="true"></i></a>
                       <a href="https://twitter.com/Home" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                       <a href="https://www.youtube.com/channel/UCFN5GhoKBhBpysN9tmF9gnA/featured" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a> -->
