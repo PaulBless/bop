@@ -4,14 +4,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>BOP | Admin </title>
+    <title>BOP | UWADA </title>
+    
+    <!-- browser icon --> 
+    <!-- <link rel="shortcut icon" href="../assets/images/app-icon.png" type="image/png"/> -->
+    <!-- <link rel="shortcut icon" href="/jumper/images/logo2.png"/> -->
+    <link rel="icon"  type="image/png" href="../assets/images/favicon.png">
 
     <!-- page meta tags --> 
-	  <meta content="Online revenue collection portal for mmda's" name="description" />
+	  <meta content="Business operating permit system, Online revenue collection application" name="description" />
     <meta content="Paul Eshun" name="author" />
     <!-- end meta data --> 
 
@@ -30,10 +36,7 @@
     <!-- plugin for sweetalert --> 
     <link rel="stylesheet" href="../assets/css/sweetalert2.min.css">
     <!-- end sweetaalert --> 
-    
-    <!-- browser icon --> 
-    <link rel="shortcut icon" href="../assets/images/app-icon.png" type="image/png"/>
-
+  
 
     <style type="text/css">
       #preloader{

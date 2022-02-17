@@ -1,11 +1,14 @@
 <nav class="navbar top-navbar bg-dark col-lg-12 col-12 p-0">
     <div class="container-fluid">
         <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
-            <!-- <ul class="navbar-nav navbar-nav-left">
+            <ul class="navbar-nav navbar-nav-left">
               <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
-                <a class="navbar-brand brand-logo font-weight-bold" href="dashboard">Upper West Akim District | BOP</a>
+                <a class="navbar-brand brand-logo font-weight-bold" href="dashboard">
+                  <img src="../assets/images/dashboard/uwada-logo.jpg" alt="profile" height="55" width="55"/>
+                  <!-- Upper West Akim District -->
+                </a>
               </li>
-            </ul> -->
+            </ul>
 
             <ul class="navbar-nav navbar-nav-left">
               <!-- <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
@@ -125,20 +128,20 @@
             </ul>
 
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo text-white font-weight-bold " href="dashboard">Upper West Akim District | Revenue Collection Portal </a>
+                <a class="navbar-brand brand-logo text-white font-weight-normal " href="dashboard">Upper West Akim District | Business Operating Permit Portal </a>
                 <a class="navbar-brand brand-logo-mini text-white font-weight-bold " href="dashboard" style="font-size: 18px;"> BOP</a>
             </div>
 
             <ul class="navbar-nav navbar-nav-right">
                 <li class="nav-item nav-profile dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                    <span class="nav-profile-name text-white"><?php echo 'Admin'; ?></span>
-                    <span class="online-status"></span>
-                    <img src="../assets/images/dashboard/uwada-logo.jpg" alt="profile"/>
+                    <span class="nav-profile-name text-white font-weight-light"><?php echo 'System Admin'; ?></span>
+                    <!-- <span class="online-status"></span> -->
+                    <!-- <img src="../assets/images/dashboard/uwada-logo.jpg" alt="profile"/> -->
                     <!-- <img src="../uploads/<?php ?>" alt="profile"/> -->
                   </a>
                   <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-                      <a class="dropdown-item" href="manage-account">
+                      <a class="dropdown-item" href="account">
                         <i class="mdi mdi-settings text-primary"></i>
                         Manage Account
                       </a>

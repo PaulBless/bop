@@ -29,7 +29,7 @@
               </li>
 
               <li class="nav-item d-none">
-                  <a href="" class="nav-link">
+                  <a href="javascript:void(0)" class="nav-link">
                     <i class="mdi mdi-school menu-icon"></i>
                     <span class="menu-title">Students</span>
                     <i class="menu-arrow"></i>
@@ -45,7 +45,7 @@
               
               <!-- categories  -->
               <li class="nav-item">
-                  <a href="" class="nav-link">
+                  <a href="javascript:void(0)" class="nav-link">
                     <i class="mdi mdi-tag-multiple menu-icon"></i>
                     <span class="menu-title">Categories</span>
                     <i class="menu-arrow"></i>
@@ -60,18 +60,13 @@
               </li>
 
               <li class="nav-item">
-                  <a href="" class="nav-link">
+                  <a href="receipts" class="nav-link">
                     <i class="mdi mdi-receipt menu-icon"></i>
                     <span class="menu-title">Receipts</span>
                     <i class="menu-arrow"></i>
                   </a>
-                  <div class="submenu">
-                      <ul>
-                          <li class="nav-item"><a class="nav-link" href="add-receipt" >Add New</a></li>
-                          <li class="nav-item"><a class="nav-link" href="receipts">Receipts List</a></li>
-                      </ul>
-                  </div>
               </li>
+
             <li class="nav-item">
                   <a href="results" class="nav-link">
                     <i class="mdi mdi-animation menu-icon"></i>

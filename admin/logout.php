@@ -1,6 +1,6 @@
 <?php
 
-setcookie('','');
+// setcookie('','');
 
 header('location: ../index.php')
 ?>

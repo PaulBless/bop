@@ -145,16 +145,17 @@
                     <div class="col-lg-6 d-flex align-items-center justify-content-center bg-darkk">
                         <div class="auth-form-transparent text-left p-2">
                         <div class="brand-logo">
-                            <h2 class="text-primary text-center font-weight-bold mb-2"> Business Operating Permit Portal </h2>
+                            <h2 class="text-primary text-center font-weight-bold mb-2"> Business Operating Permit Application </h2>
                         <!-- </div> -->
 
-                        <hr class="border-light">
+                        <hr class="border-primary">
                         </div>
-                        <h6 class="text-black text-center font-weight-light">Welcome back, please login to your dashboard!</h6>
+
+                        <h5 class="text-black text-center font-weight-light">Welcome back, please login to your dashboard!</h5>
                         
                         <form class="pt-3" method="post" action="signin_logic.php" id="auth_form">
                             <div class="form-group">
-                            <label for="exampleInputEmail">Login ID</label>
+                            <!-- <label for="exampleInputEmail">Login ID</label> -->
                             <div class="input-group">
                                 <div class="input-group-prepend bg-secondary">
                                 <span class="input-group-text bg-light border-right-0">
@@ -166,7 +167,7 @@
                             </div>
 
                             <div class="form-group">
-                            <label for="exampleInputPassword">Password</label>
+                            <!-- <label for="exampleInputPassword">Password</label> -->
                             <div class="input-group">
                                 <div class="input-group-prepend bg-secondary">
                                 <span class="input-group-text bg-transparent border-right-0">
