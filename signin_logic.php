@@ -10,7 +10,8 @@ if ($login_id == 'admin' && $login_password == 'admin123') {
 } elseif ($login_id == 'user' && $login_password == 'user123')  {
     header('location: user/dashboard.php');
 } else {
-    header('location: index');
+    header('location: signin');
+    // echo "error"; return;
 }
 
 ?>

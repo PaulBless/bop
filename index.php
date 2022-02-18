@@ -33,6 +33,11 @@
         text-transform: uppercase;
       }
 
+      .top-container .col2 .fa{
+        display: none;
+      }
+
+
       /* 768px Media Queries Styles */
       @media screen and (max-width: 768px) {
         .top-container .col2 h5 {font-size: 10px;padding: 9px 0;}
@@ -50,15 +55,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-5 col1">
-                <h5>business operating permit | BOP</h5>
+                <h5>business operating permit|BOP</h5>
             </div>
             <div class="col-sm-6 col-7 col2">
                 <div class="row">
                   <div class="col-sm-12">
-                     <h5>upper west akim district assembly</small>
-                      <!-- <a href="https://web.facebook.com/uwadadistrictassembly"><i class="fa fa-facebook-official" target="_blank" aria-hidden="true"></i></a>
+                     <h5>upper west akim district assembly, adeiso</small>
+                      <a href="https://web.facebook.com/uwadadistrictassembly"><i class="fa fa-facebook-official" target="_blank" aria-hidden="true"></i></a>
                       <a href="https://twitter.com/Home" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                      <a href="https://www.youtube.com/channel/UCFN5GhoKBhBpysN9tmF9gnA/featured" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a> -->
+                      <a href="https://www.youtube.com/channel/UCFN5GhoKBhBpysN9tmF9gnA/featured" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                    </div>
                 </div>
             </div>
