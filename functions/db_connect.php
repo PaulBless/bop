@@ -2,8 +2,8 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "bop_database";
+$database = "sip";
 
-$myconnection = new mysqli('localhost','root','','bop_database')or die("Could not connect to MySQL Server\\n".mysqli_error($myconnection));
+$myconn = new mysqli('localhost','root','','sip')or die("Could not connect to MySQL Server\\n".mysqli_error($myconn));
 
 ?>

@@ -64,7 +64,7 @@
                                 </thead>
                                 <tbody>
                                     <?php
-                                    ## require db connection
+                                    ## reauire db connection
                                     require '../functions/db_connect.php';
 
                                     $bool = false;  // set flag

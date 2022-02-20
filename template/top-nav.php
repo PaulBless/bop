@@ -1,14 +1,12 @@
 <nav class="navbar top-navbar bg-dark col-lg-12 col-12 p-0">
     <div class="container-fluid">
         <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
-            <ul class="navbar-nav navbar-nav-left">
+            <!-- <ul class="navbar-nav navbar-nav-left">
               <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
-                <a class="navbar-brand brand-logo font-weight-bold" href="dashboard">
-                  <img src="../assets/images/dashboard/uwada-logo.jpg" alt="profile" height="55" width="55"/>
-                  <!-- Upper West Akim District -->
-                </a>
+                <a class="navbar-brand brand-logo font-weight-bold" href="home">Online Student Information Portal | OSIP</a>
               </li>
-            </ul>
+            
+            </ul> -->
 
             <ul class="navbar-nav navbar-nav-left">
               <!-- <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
@@ -16,11 +14,10 @@
               </li> -->
 
               <li class="nav-item dropdown">
-                <!-- <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
                   <i class="mdi mdi-bell mx-0"></i>
-                  <span class="count bg-success">2</span>
-                </a> -->
-
+                  <!-- <span class="count bg-success">2</span> -->
+                </a>
                 <!-- <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                   <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
                   <a class="dropdown-item preview-item">
@@ -65,11 +62,11 @@
                 </div> -->
               </li>
 
-              <li class="nav-item dropdown ">
-                <!-- <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+              <li class="nav-item dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
                   <i class="mdi mdi-email mx-0"></i>
-                  <span class="count bg-primary">3</span>
-                </a> -->
+                  <!-- <span class="count bg-primary">3</span> -->
+                </a>
                 <!-- <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                   <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
                   <a class="dropdown-item preview-item">
@@ -111,11 +108,11 @@
                 </div> -->
               </li>
 
-              <!-- <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
                 <a href="#" class="nav-link count-indicator "><i class="mdi mdi-magnify"></i></a>
-              </li> -->
+              </li>
 
-              <!-- <li class="nav-item nav-search d-none d-lg-block ml-3">
+              <li class="nav-item nav-search d-none d-lg-block ml-3">
                 <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="search">
@@ -124,24 +121,24 @@
                     </div>
                     <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="search">
                 </div>
-              </li>	 -->
+              </li>	
             </ul>
 
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo text-white font-weight-normal " href="dashboard">Upper West Akim District | Business Operating Permit Portal </a>
-                <a class="navbar-brand brand-logo-mini text-white font-weight-bold " href="dashboard" style="font-size: 18px;"> BOP</a>
+                <a class="navbar-brand brand-logo text-white font-weight-bold " href="home">Online Student Information Portal </a>
+                <a class="navbar-brand brand-logo-mini text-white font-weight-bold " href="home" style="font-size: 18px;"> OSIP</a>
             </div>
 
             <ul class="navbar-nav navbar-nav-right">
                 <li class="nav-item nav-profile dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                    <span class="nav-profile-name text-white font-weight-light"><?php echo 'System Admin'; ?></span>
-                    <!-- <span class="online-status"></span> -->
-                    <!-- <img src="../assets/images/dashboard/uwada-logo.jpg" alt="profile"/> -->
+                    <span class="nav-profile-name text-white"><?php ?></span>
+                    <span class="online-status"></span>
+                    <img src="../assets/images/faces/face28.png" alt="profile"/>
                     <!-- <img src="../uploads/<?php ?>" alt="profile"/> -->
                   </a>
                   <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-                      <a class="dropdown-item" href="account">
+                      <a class="dropdown-item" href="manage-account">
                         <i class="mdi mdi-settings text-primary"></i>
                         Manage Account
                       </a>

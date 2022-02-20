@@ -7,7 +7,7 @@ $academicID = "";
 if(isset($_GET['ayid']))
 	$academicID = $_GET['ayid'];
 
-## prepare query statement
+## nprepare query statement
 $delete_query = mysqli_query($myconn, "DELETE FROM `academic_year` WHERE ayid='$academicID'");
 if($delete_query == true){
 echo "<script>alert('Success!\\nAcademic year has been successfully deleted!')</script>";

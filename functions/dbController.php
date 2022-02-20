@@ -1,11 +1,10 @@
 <?php
 class dbController {
-
    //variables to hold server details
     private $host = "localhost";
     private $user = "root";
     private $password = "";
-    private $database = "bop";
+    private $database = "sip";
     private $connection;
     
     //destructor
@@ -18,13 +17,12 @@ class dbController {
     function connectDB() {
         $connection = mysqli_connect($this->host,$this->user,$this->password,$this->database);
         if($connection->connect_error){
-            echo "<script>alert('Connection to MySQL Server Failed!!')</script>";
-            die("ERROR: ".mysqli_connect_error());
+            echo "<script>alert('Error establishing a connection to MySQL server..')</script>";
         }
         return $connection;
     }
     
-    // base query function
+    //run basequery function
     function runBaseQuery($query) {
         $result = $this->connection->query($query);   
         if ($result->num_rows > 0) {
@@ -32,11 +30,11 @@ class dbController {
                 $resultset[] = $row;
             }
         }
-        //    return $resultset;
+    //    return $resultset;
         return $result;
     }
     
-    // query or search function
+    //run query/search function
     function runQuery($query, $param_type, $param_value_array) {
         $sql = $this->connection->prepare($query);
         $this->bindQueryParams($sql, $param_type, $param_value_array);
@@ -66,7 +64,7 @@ class dbController {
         ), $param_value_reference);
     }
     
-    // function to insert record
+    //function to insert record
     function insert($query, $param_type, $param_value_array) {
         $sql = $this->connection->prepare($query);
         $this->bindQueryParams($sql, $param_type, $param_value_array);
@@ -75,7 +73,7 @@ class dbController {
         return $insertId;
     }
     
-    // function to update record
+    //function to update record
     function update($query, $param_type, $param_value_array) {
         $sql = $this->connection->prepare($query);
         $this->bindQueryParams($sql, $param_type, $param_value_array);

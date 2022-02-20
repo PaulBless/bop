@@ -1,6 +1,6 @@
 
 <!-- scripts for current pages --> 
-<script src="../assets/js/file-upload.js"></script>
+<script src="../assets/js//file-upload.js"></script>
 <script src="../assets/js/typeahead.js"></script>
 
 <!-- plugin js for this page -->

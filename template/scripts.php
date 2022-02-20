@@ -58,7 +58,7 @@
           $('.theme-loader').show();
           setTimeout(function(){
             $('.theme-loader').fadeToggle();
-          }, 1000);
+          }, 1500);
         }
 </script>
 
