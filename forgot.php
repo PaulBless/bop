@@ -148,20 +148,20 @@
                             <h2 class="text-primary text-center font-weight-bold mb-2"> Reset Your Password </h2>
                         <!-- </div> -->
 
-                        <hr class="border-light">
+                        <hr class="border-primary">
                         </div>
-                        <h6 class="text-black text-center font-weight-light">Kindly enter the registered email associated with your account, and we'll send you a password reset link!</h6>
+                        <h5 class="text-black text-center font-weight-light">Kindly enter the registered email associated with your account, and we'll send you a password reset link!</h5>
                         
                         <form class="pt-3" id="auth_form">
                             <div class="form-group">
-                            <label for="exampleInputEmail">Enter Email ID</label>
+                            <!-- <label for="exampleInputEmail">Enter Email ID</label> -->
                             <div class="input-group">
                                 <div class="input-group-prepend bg-secondary">
                                 <span class="input-group-text bg-light border-right-0">
                                     <i class="mdi mdi-email text-dark"></i>
                                 </span>
                                 </div>
-                                <input type="text" name="email" class="form-control form-control-lg text-dark bg-white border-light" id="exampleInputEmail" placeholder="info@gmail.com">
+                                <input type="text" name="email" class="form-control form-control-lg text-dark bg-white border-light" id="exampleInputEmail" placeholder="Enter Email ID">
                             </div>
                             </div>
                           

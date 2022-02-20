@@ -21,6 +21,33 @@
     <link rel="stylesheet" href="jumper/css/animate.css">
     <link rel="stylesheet" href="jumper/css/main.css">
     
+    <style>
+      .carousel-indicators > li {
+        cursor: pointer;
+      }
+      .top-container .col2 h5 {
+        font-weight: bold;
+        color: #2cbf84 !important;
+        font-size: 11px;
+        padding: 9px 0;
+        text-transform: uppercase;
+      }
+
+      .top-container .col2 .fa{
+        display: none;
+      }
+
+
+      /* 768px Media Queries Styles */
+      @media screen and (max-width: 768px) {
+        .top-container .col2 h5 {font-size: 10px;padding: 9px 0;}
+      }
+      /* 425px Media Queries Styles */
+      @media screen and (max-width: 425px) {
+        .top-container .col2 h5 {font-size: 9px;}
+      }
+
+    </style>
   </head>
 
   <body>
@@ -28,24 +55,26 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-5 col1">
-                <h5>business operating permit</h5>
+                <h5>business operating permit|BOP</h5>
             </div>
             <div class="col-sm-6 col-7 col2">
                 <div class="row">
-                   <div class="col-sm-12">
-                      <a href="https://web.facebook.com/uwadadistrictassembly"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                      <a href="https://twitter.com/Home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                      <a href="https://www.youtube.com/channel/UCFN5GhoKBhBpysN9tmF9gnA/featured"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                  <div class="col-sm-12">
+                     <h5>upper west akim district assembly, adeiso</small>
+                      <a href="https://web.facebook.com/uwadadistrictassembly"><i class="fa fa-facebook-official" target="_blank" aria-hidden="true"></i></a>
+                      <a href="https://twitter.com/Home" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com/channel/UCFN5GhoKBhBpysN9tmF9gnA/featured" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                    </div>
                 </div>
             </div>
         </div>
     </div>
    </div>
+   
     <!-- Navigation -->
     <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="jumper/images/logo2.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.php"><img src="jumper/images/logo2.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,12 +85,9 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#features">features</a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li> -->
+              <a class="nav-link" href="https://uwada.gov.gh" target="_blank">About Us</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="signin">sign in</a>
             </li>
@@ -78,39 +104,41 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
+          <!-- Slide One -->
          <div class="carousel-item active">
-           <img src="jumper/images/banner-3.jpg" alt="">
+           <img src="jumper/images/featured-gallery.jpg" alt="">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>upper west akim district assembly</h3>
-              <h1>business operating permit application</h1>
-              <h2>for preparing bills</h2>
-              <!-- <h5>User friendly application</h5> -->
+            <!-- <h3>upper west akim district assembly</h3> -->
+              <h1>business operating permit app</h1>
+              <h2> billing | collection | payments </h2>
+              <h5>the revolutionary App that helps to control revenue collection & BOP payments</h5>
               <a class="btn btn-primary" href="signin" role="button">sign in</a>
             </div>
           </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-         <div class="carousel-item">
-           <img src="jumper/images/banner-2.jpg" alt="...">
+
+          <!-- Slide Two -->
+         <div class="carousel-item d-nonee">
+           <img src="jumper/images/banner-2.jpg" alt="slide 2">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>upper west akim district assembly</h3>
-              <h1>revenue collection portal</h1>
-              <h2>for revenue collection</h2>
-              <!-- <h5>Carefully designed and developed to enable easy and fast processing of business operating permits</h5> -->
+            <!-- <h3>upper west akim district assembly</h3> -->
+              <h1>revenue collection & tracking</h1>
+              <h2>simple | easy | efficient</h2>
+              <h5> easily prepare and generate business operating permit (BOP) bills and invoices</h5>
               <a class="btn btn-primary" href="signin" role="button">sign in</a>
             </div>
           </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-         <div class="carousel-item">
-           <img src="jumper/images/banner-1.jpg" alt="...">
+
+          <!-- Slide Three -->
+         <div class="carousel-item d-nonee">
+           <img src="jumper/images/portfolio-4.jpg" alt="slide 3">
            <div class="gradient"></div>
            <div class="carousel-caption">
-            <h3>upper west akim district assembly</h3>
-              <h1>revolutionary app for mmda's </h1>
-              <h2>simple, easy. efficient</h2>
-              <!-- <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5> -->
+            <!-- <h3>upper west akim district assembly</h3> -->
+              <h1>the revolutionary app </h1>
+              <h2>finance | accounting | reporting </h2>
+              <h5>fast-track revenue collection and monitor BOP payments on the go!</h5>
               <a class="btn btn-primary" href="signin" role="button">sign in</a>
             </div>
           </div>
@@ -135,41 +163,41 @@
                </div>
             </div>
             <div class="col-sm-12 heading">
-                <h3>All you need to know about bop app</h3>
-                <h4>a complete end to end revenue collection and tracking application</h4>
+                <h3>about bop </h3>
+                <h4>a complete, comprehensive end-to-end revenue collection, payments and tracking application</h4>
             </div>
         </div>
         <div class="row" data-aos="fade-up">
             <div class="col-sm-4 col1">
                 <div class="row">
                     <div class="col-sm-2 box1">
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <i class="fa fa-tags" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
                         <h3>billing.</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type specimen book. It has survived not only five</p>
+                        <p>Quickly generate and prepare bill for registered businesses based on category!</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col2">
                 <div class="row">
                     <div class="col-sm-2 box1">
-                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
                         <h3>collection.</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type of the printing and scrambled it to of the printing and scrambled it to . It has survived not only five</p>
+                        <p>Keep track of the collection of bill & revenue with the help of automated receipts.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col3">
                 <div class="row">
                     <div class="col-sm-2 box1">
-                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <i class="fa fa-money" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-10 inner-content">
                         <h3>payments.</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and scrambled it to make a type specimen book. It has survived not only five</p>
+                        <p>Easy entry of payments of invoices and receipts without limit!</p>
                     </div>
                 </div>
             </div>
@@ -190,16 +218,16 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-web.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">User Friendly</a></h4>
+                               <h4><a href="javascript:void(0)">Fully Responsive</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(0)">Simple and Easy User Interface</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
+ 	            	<h5><a href="javascript:void(0)">Both Web & Mobile </a></h5>
+ 						    <p>Carefully crafted, designed and developed using top-notch technologies and standardized tools to suit all devices screen sizes (mobile, tablets, laptops/desktops).</p> 
  					   </div>
                     </div>
                 </div>
@@ -208,16 +236,16 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-msg.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">sms </a></h4>
+                               <h4><a href="javascript:void(0)">sms integration</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
  	            		   <h5><a href="javascript:void(0)">SMS Notification</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
+ 						    <p>SMS notification is integrated to facilitate easy communication between business owners and the assembly on status of BOP payments.</p>
  					   </div>
                     </div>
                 </div>
@@ -228,16 +256,16 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-1.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-login.jpg" alt="" class="img-thumbnail blog-1">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">database backup</a></h4>
+                               <h4><a href="javascript:void(0)">fully secured</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(0)">automatic database backups</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
+ 	            	<h5><a href="javascript:void(0)">Authentication & Authorization</a></h5>
+ 						    <p>Users are authenticated via login credentials (email, passwords & OTP). With <b>Access Control</b>  features, information and resources can only be accessed by authorized users!</p>
  					   </div>
                     </div>
                 </div>
@@ -246,21 +274,22 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                        <div class="image-one">
-                           <img src="jumper/images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                           <img src="jumper/images/blog-report1.jpg" alt="" class="img-thumbnail blog-5">
                              <div class="text-block"> 
-                               <h4><a href="javascript:void(0)">customized reports</a></h4>
+                               <h4><a href="javascript:void(0)"> reports</a></h4>
                              </div>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
- 	            		   <h5><a href="javascript:void(00">generate custom reports and statistics</a></h5>
- 						   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five</p>
+ 	            	<h5><a href="javascript:void(0)"> Custom Reports and Statistics</a></h5>
+ 						    <p>Reports can be generated in various forms; you can apply filtering based on date, time and amounts. View payments history with statistics and analysis.</p>
  					   </div>
                     </div>
                 </div>
             </div>
         </div>
+      
     </div>
 </section>
 
@@ -291,18 +320,19 @@
 <!-- Footer -->
 <footer class="page-footer">
   <div class="gradient"></div>
+
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
-
       <!-- Grid row -->
       <div class="row">
-
         <!-- Grid column -->
         <div class="col-lg-6 col-md-12 col-12 content">
 
           <!-- Content -->
           <a href="index"><img src="jumper/images/logo2.png" alt="footer-logo"></a>
-          <p>BOP - an application designed, developed, and engineered  to automate and fast track business operating permit payments and revenue collection within all towns and villages in the district. </p>
+          <p>BOP - an application designed, developed, and engineered  to automate business operating permit processes & transactions (billing, revenue collection, payments) and fast track invoicing, receipts and payments history of all registered businesses within the district. </p>
+
+          <a class="btn btn-light text-uppercase" style="width: 180px; background-color:#ffff00;border:#ffff00;" href="signin" role="button">sign in now</a>
 
         </div>
         <!-- Grid column -->
@@ -315,12 +345,9 @@
             <li>
               <a href="https://www.uwada.gov.gh">Uwada Official Site</a>
             </li>
-            <li>
-              <a href="https://www.nabco.gov.gh">Nation Builders Corp</a>
-            </li>
-            <li>
+            <!-- <li>
               <a href="https://www.idif.gov.gh">One District One Factory</a>
-            </li>
+            </li> -->
             <li>
               <a href="https://www.ghana.gov.gh">Government of Ghana</a>
             </li>
@@ -334,8 +361,6 @@
 
         <!-- Grid column -->
         <div class="col-lg-3 col-md-4 mx-auto">
-
-
           <!-- Links -->
           <h5 class="mt-3 mb-3">contact Info</h5>
 
@@ -353,7 +378,7 @@
               <a href="javascript:void(0)">GPS Address: EV-0061-2120 </a>
             </li>
             <li>
-              <a href="javascript:void(0)">Office Location: Tiokrom, Off Nsawam-Asamankese Highway</a>
+              <a href="javascript:void(0)">Office: Adeiso - Tiokrom, Off Nsawam-Asamankese Highway</a>
             </li>
           </ul>
 
@@ -377,31 +402,36 @@
 
    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script> -->
     <!-- Custom JavaScript -->
+    <script src="jumper/js/jquery.slim.min.js"></script>
+    <script src="jumper/js/popper.min.js"></script>
+    <script src="jumper/js/bootstrap.min.js"></script>
+    <script src="jumper/js/ekko-lightbox.js"></script>
     <script src="jumper/js/animate.js"></script>
     <script src="jumper/js/custom.js"></script>
-<script>
-$('.carousel').carousel({
-  interval: 2000
-})
-    
-window.onscroll = function() {myFunction()};
+    <script>
+      $('.carousel').carousel({
+        interval: 5000
+      })
+          
+      window.onscroll = function() { myFunction() };
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+
      <script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
             event.preventDefault();

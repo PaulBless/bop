@@ -12,7 +12,14 @@
         <?php include('../template/top-nav.php'); ?>
         <?php include('../template/menu.php'); ?>
 
-      
+      <style>
+        .hk-button--primary {
+            background-clip: border-box!important;
+            background-origin: border-box!important;
+            background: #79589f;
+            color: #fff;
+        }
+      </style>
         </div>
     
     <!-- partial -->
@@ -29,10 +36,10 @@
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 mb-4 mb-xl-0" >
                             <div class="d-lg-flex">
-                                <a data-toggle="modal" data-target="#" class="add_new btn btn-primary font-weight-bold mb-3" style="float: right; "><i class="mdi mdi-plus"> </i> Add New Receipt</a>
+                                <a class="add_new btn btn-primary font-weight-bold mb-3" style="float: right; "><i class="mdi mdi-plus"> </i> Add New Receipt</a>
                             </div>
                         </div>
-                        <hr class="border-info">
+                        <hr class="border-dark">
                     </div>
                     <!-- end page title-->
 
@@ -41,28 +48,25 @@
                     <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <!-- <h4 class="card-title text-center">List of Lecturers</h4> -->
                   <div class="table-responsive">
                     <table class="table table-hover table-bordered" width="100%">
                       <thead class="bg-dark text-white">
                         <tr>
-                          <th class=""> ID</th>
-                          <th> Reg No</th>
-                          <th> Full Name</th>
-                          <th> Phone Number</th>
-                          <th> Email ID</th>
-                          <th> House Address </th>
+                          <th> ID</th>
+                          <th> Start No</th>
+                          <th> End No</th>
+                          <th> Given By</th>
+                          <th> Entry By</th>
                           <th> Date Added</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td> 1</td>
-                          <td> 4589</td>
-                          <td> Name of </td>
-                          <td> Name of </td>
-                          <td> Name of </td>
-                          <td> receipt@bop.com  </td>
+                          <td> 400100</td>
+                          <td> 400150</td>
+                          <td> Account Officer </td>
+                          <td> Budget Officer </td>
                           <td> <?php echo date('M d, Y'); ?> </td>
                         </tr>
                       </tbody>
@@ -77,22 +81,73 @@
 				</div>
 				<!-- content-wrapper ends -->
                 
-                <!-- footer -->
-                <?php include('../template/footer.php') ?>
+        <!-- footer -->
+        <?php include('../template/footer.php') ?>
 
-                <?php //include('modals/add_lecturer.php'); ?>
+        <!-- Modal Dialog  -->
+      <div class="modal fade in" id="add_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" > 
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                   <h4 class="card-title text-white font-weight-bold">Add New Receipt </h4>
+                    <button type="button" class="close text-white font-weight-bold" data-dismiss="modal" aria-hidden="true">X</button>
+                </div>
+                    
+                <div class="modal-body">
+                    <form class="forms-sample" method="POST">
+                    
+                        <div id="msg" class="form-group"></div>
+                        
+                        <div class="form-group">
+                          <label for="receiptStart">Enter Receipt Starting Number</label>
+                          <input type="text" class="form-control" id="receiptStart" placeholder="000100" name="receipt-start" required>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="receiptEnd">Enter Receipt Ending Number</label>
+                          <input type="text" class="form-control" id="receiptEnd" placeholder="000100" name="receipt-end" required>
+                        </div> 
+                        
+                        <div class="form-group">
+                          <label for="collector">Name of Collector Assigning Receipt To</label>
+                          <select class="form-control form-control-lg" name="collector" id="collector" style="height:auto">
+                            <option value="" disabled selected hidden >Choose an option</option>
+                            <option>Nana Kwame</option>
+                          </select>
+                        </div>
+
+                        <!-- button group --> 
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button type="submit" class="col-md-6 btn btn-success btn-lg btn-rounded mr-2" id="add">Save Receipt</button>
+                            <button class="col-md-3 btn btn-danger btn-lg btn-rounded" data-dismiss="modal">Cancel</button>
+                        </div>
+
+                    </form>
+                    
+
+                </div>
+                    
+				</div>
+            </div>
+    </div>
+
 	    <!-- partial -->
 		</div>
-	<!-- main-panel ends -->
+	  <!-- main-panel ends -->
 		</div>
 		<!-- page-body-wrapper ends -->
     </div>
 		<!-- container-scroller -->
    
 
-        <!-- script files -->
-        <?php include('../template/scripts.php'); ?>
-        <!-- end script files -->
+    <!-- script files -->
+    <?php include('../template/scripts.php'); ?>
+    <!-- end script files -->
 
+    <script>
+      $('.add_new').click(function(e){
+        $('#add_form').modal('show');
+      });
+    </script>
   </body>
 </html>
