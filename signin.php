@@ -37,8 +37,13 @@
     <link rel="stylesheet" href="assets/css/toast.min.css">
     
 
-
-    <style type="text/css">
+    <style type="text/css"> 
+        .auth .login-half-bg {
+            /* background: url("assets/images/auth/featured-gallery-01.jpg"); */
+            background-image: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(assets/images/auth/featured-gallery-01.jpg);
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
         .brand-logo img{
             align-content: center;
             text-align: center;
@@ -149,17 +154,16 @@
                     <div class="row flex-grow">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center bg-white">
                         <div class="auth-form-transparent text-left p-2">
-                        <div class="brand-logo">
-                            <!-- <img src="assets/images/dashboard/uwada-logo.jpg" height="120" width="120">  -->
-                            <h2 class="text-primary text-center font-weight-bold mb-2"> Business Operating Permit Application </h2>
-
-                        <hr class="border-primary">
+                        <div class="brand-logo text-center">
+                            <img src="assets/images/dashboard/uwada-logo.jpg" height="120" width="120" style="border-radius:50%;"> 
+                            <h3 class="text-primary text-center font-weight-bold mb-2"> Business Operating Permit Application </h3>
+                            <hr class="border-primary">
                         </div>
 
-                        <h5 class="text-black text-center font-weight-light">Welcome back, please login to your dashboard!</h5>
+                        <h5 class="text-black text-center font-weight-light">Welcome back, please login to continue!</h5>
                         
-                        <!-- <form class="pt-3" method="post" action="signin_logic.php" id="auth_form"> -->
-                        <form class="pt-3" method="post" id="auth_form">
+                        <form class="pt-3" method="post" action="signin_logic.php" id="auth_form">
+                        <!-- <form class="pt-3" method="post" id="auth_form"> -->
                             <div class="form-group">
                             <div class="input-group">
                                 <div class="input-group-prepend bg-secondary">
@@ -184,14 +188,14 @@
                             <div class="my-2 d-flex justify-content-between align-items-center">
                             <div class="form-check">
                                 <label class="form-check-label text-muted">
-                                <!-- <input type="checkbox" class="form-check-input">
-                                Keep me signed in -->
+                                <input type="checkbox" class="form-check-input">
+                                Keep me signed in
                                 </label>
                             </div>
                             <a href="forgot" class="auth-link pwd-forget text-black">Forgotten password ?</a>
                             </div>
                             <div class="my-3">
-                                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-bold auth-form-btn" id="submit_btn"> <i class="mdi mdi-login mr-1"></i> L O G I N</button>
+                                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-bold auth-form-btn" id="submit_btn"> <i class="mdi mdi-login mr-1"></i> LOG IN</button>
                             </div>
                             
                             <!-- <div class="text-center mt-4 font-weight-light">
@@ -202,7 +206,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 login-half-bg d-flex flex-row">
-                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2022 - All rights reserved | Business Operating Permit Application.</p>
+                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2022 - UWADA | Business Operating Permit Application. </p>
                     </div>
                     </div>
                 </div>

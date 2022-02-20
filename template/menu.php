@@ -9,7 +9,7 @@
                 </a>
               </li>
 
-              <li class="nav-item " style="display:none">
+              <li class="nav-item " style="display:nonee">
                   <a href="#" class="nav-link">
                     <i class="mdi mdi-cube-outline menu-icon"></i>
                     <span class="menu-title">Settings</span>
@@ -28,7 +28,7 @@
                   </div>
               </li>
 
-              <li class="nav-item d-none">
+              <li class="nav-item d-nonee">
                   <a href="javascript:void(0)" class="nav-link">
                     <i class="mdi mdi-school menu-icon"></i>
                     <span class="menu-title">Students</span>

@@ -63,20 +63,19 @@ INSERT INTO `bop_roles`
   (3,'Collector', CURRENT_TIMESTAMP);
 
 
--- table structure for system users
--- ----------------------------------------------
+-- table structure for system users : Mandatory to Create in App
+-- ----------------------------------------------------------------
 CREATE TABLE `bop_users`(
   `userid` int(11) NOT NULL AUTO_INCREMENT,
-  `staff_no` varchar(19) NOT NULL,
+  `staff_id` varchar(19) NOT NULL,
   `full_name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `phoneno` varchar(10) NOT NULL,
   `address` varchar(250) NOT NULL,
   `loginid` varchar(19) NOT NULL, -- login ID
   `password` text NOT NULL, -- login password
-  `user_type` int(11) NOT NULL,
-  `user_status` int(11) NOT NULL,
-  `avatar` varchar(155) NOT NULL,
+  `user_type` int(11) NOT NULL, -- foreign key for roles table
+  `user_status` int(11) NOT NULL, -- foreign key for account_status table
   `reg_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, 
     PRIMARY KEY (`userid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
@@ -84,7 +83,7 @@ CREATE TABLE `bop_users`(
 
 -- table structure for categories 
 -- ----------------------------------------------
-CREATE TABLE `bop_categories`(
+CREATE TABLE `bop_bill_categories`(
   `cid` int(11) NOT NULL AUTO_INCREMENT,
   -- `uuid` bigint(10) NOT NULL,
   `category_name` varchar(155) NOT NULL,
@@ -99,20 +98,61 @@ CREATE TABLE `bop_categories`(
 -- -----------------------------
 CREATE TABLE `bop_towns_villages`(
 	`tvid` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(200) NOT NULL,
-  `add_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP, 
+  `tvname` varchar(200) NOT NULL,
+  `tvdate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP, 
     PRIMARY KEY (`tvid`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 
+-- table structure for business types
+-- ------------------------------------
+CREATE TABLE `bop_business_types`(
+	`btid` int(11) NOT NULL AUTO_INCREMENT,
+  `btname` varchar(155) NOT NULL,
+  `btcomment` text NOT NULL,
+  `btdate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP, 
+    PRIMARY KEY (`btid`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+
+
 -- table structure for payments
--- -----------------------------
+-- -------------------------------
 CREATE TABLE `bop_payments`(
 	`pid` int(11) NOT NULL AUTO_INCREMENT,
   `payment_amount` double(10,2) NOT NULL,
   `payment_date` datetime NOT NULL,
-  `payee_id` int(11) NOT NULL, 
+  `business_id` int(11) NOT NULL, -- foreign key to business table
+  `receipt_id` int(11) not null, -- foreign key to receipts table
+  `users_id` int(11) not null, -- foreign key to users table
     PRIMARY KEY (`pid`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8bm4;
+
+
+-- table structure for receipts
+-- --------------------------------
+CREATE TABLE `bop_receipts`(
+	`rid` int(11) NOT NULL AUTO_INCREMENT,
+  `receipt_number` varchar(19) NOT NULL,
+  `date_created` datetime NOT NULL,
+  `date_used` datetime NOT NULL,
+  `status` int(11) NOT NULL DEFAULT '0', 
+  `receipt_range_id` int(11) not null, -- foreign key to receipt_ranges table
+  `user_assigned_id` int(11) not null, -- foreign key to users table
+    PRIMARY KEY (`rid`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8bm4;
+
+
+-- table structure for receipts_ranges
+-- ------------------------------------
+CREATE TABLE `bop_receipts_ranges`(
+	`rrid` int(11) NOT NULL AUTO_INCREMENT,
+  `start_number` varchar(19) NOT NULL,
+  `end_number` varchar(19) NOT NULL,
+  `total` int(11) NOT NULL, 
+  `is_used` enum('Pending','Finished') NOT NULL DEFAULT 'Pending' , -- 'NOTE: Pending -> Not Used All Ranges, Finished -> Have Used All Ranges'
+  `user_assigned_id` int(11) not null, -- foreign key to users table
+  `timestamp` timestamp not null default current_timestamp,
+    PRIMARY KEY (`rrid`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8bm4;
 
 
@@ -148,7 +188,7 @@ INSERT INTO `bop_settings`
   (3, 'address', 'Accra, Ghana'),
   (4, 'contact', '0272898916'),
   (5, 'email', 'jecmasghana@gmail.com'),
-  (6, 'currency', '$'),
+  (6, 'currency', 'GHC'),
   (7, 'profile_pic', 'logo2.png'),
 
 

@@ -97,27 +97,25 @@
                     <form class="forms-sample" method="POST">
                     
                         <div id="msg" class="form-group"></div>
+                        
+                        <div class="form-group">
+                          <label for="receiptStart">Enter Receipt Starting Number</label>
+                          <input type="text" class="form-control" id="receiptStart" placeholder="000100" name="receipt-start" required>
+                        </div>
 
-                        <div class="form-group row">
-                        <label for="exampleInputFName" class="col-sm-6 col-form-label text-dark">Receipt Start Number</label>
-                        <input type="text" name="receipt-start" class="form-control col-sm-5 text-dark border-secondary" id="inputstart" placeholder="eg. 000100" required>
+                        <div class="form-group">
+                          <label for="receiptEnd">Enter Receipt Ending Number</label>
+                          <input type="text" class="form-control" id="receiptEnd" placeholder="000100" name="receipt-end" required>
+                        </div> 
+                        
+                        <div class="form-group">
+                          <label for="collector">Name of Collector Assigning Receipt To</label>
+                          <select class="form-control form-control-lg" name="collector" id="collector" style="height:auto">
+                            <option value="" disabled selected hidden >Choose an option</option>
+                            <option>Nana Kwame</option>
+                          </select>
                         </div>
-                        
-                        <div class="form-group row">
-                        <label for="exampleInputFName" class="col-sm-6 col-form-label text-dark">Receipt End Number</label>
-                        <input type="text" name="receipt-end" class="form-control col-sm-5 text-dark border-secondary" id="inputend" placeholder="eg. 000150" required>
-                        </div>
-                        
-                        <div class="form-group row">
-                        <label for="issuer" class="col-sm-6 col-form-label text-dark">Receipt Given By</label>
-                        <select name="issuer" id="" class="col-sm-5 form-control border-secondary">
-                          <option value="">Select</option>
-                          <option value="">First name</option>
-                          <option value="">Second name</option>
-                        </select>
-                        </div>
-                        
-                        
+
                         <!-- button group --> 
                         <div class="d-flex align-items-center justify-content-center">
                             <button type="submit" class="col-md-6 btn btn-success btn-lg btn-rounded mr-2" id="add">Save Receipt</button>
@@ -125,6 +123,8 @@
                         </div>
 
                     </form>
+                    
+
                 </div>
                     
 				</div>

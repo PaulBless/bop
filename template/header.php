@@ -12,9 +12,9 @@
     <title>BOP | UWADA </title>
     
     <!-- browser icon --> 
-    <!-- <link rel="shortcut icon" href="../assets/images/app-icon.png" type="image/png"/> -->
-    <!-- <link rel="shortcut icon" href="/jumper/images/logo2.png"/> -->
-    <link rel="icon"  type="image/png" href="../assets/images/favicon.png">
+    <link rel="icon" href="../jumper/images/logo2.png" type="image/png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="../jumper/images/logo2.png">
+    <link rel="icon" type="image/jpg" href="../jumper/images/uwada-logo.jpg">
 
     <!-- page meta tags --> 
 	  <meta content="Business operating permit system, Online revenue collection application" name="description" />

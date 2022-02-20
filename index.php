@@ -227,7 +227,7 @@
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
  	            	<h5><a href="javascript:void(0)">Both Web & Mobile </a></h5>
- 						    <p>Carefully crafted, designed and developed using top-notch technologies and standardized tools to suit all devices screen sizes.</p> 
+ 						    <p>Carefully crafted, designed and developed using top-notch technologies and standardized tools to suit all devices screen sizes (mobile, tablets, laptops/desktops).</p> 
  					   </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
  	            	<h5><a href="javascript:void(0)">Authentication & Authorization</a></h5>
- 						    <p>Users are authenticated via login credentials (email, passwords & OTP). With the Access Control features, information and resources can only be accessed by authorized users!</p>
+ 						    <p>Users are authenticated via login credentials (email, passwords & OTP). With <b>Access Control</b>  features, information and resources can only be accessed by authorized users!</p>
  					   </div>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
                     <div class="col-lg-6 col-md-12">
  					    <div class="blog-column1">
  	            	<h5><a href="javascript:void(0)"> Custom Reports and Statistics</a></h5>
- 						    <p>Reports can be generated in various forms; you can apply filtering based on date, time and amounts. View payments history and statistics.</p>
+ 						    <p>Reports can be generated in various forms; you can apply filtering based on date, time and amounts. View payments history with statistics and analysis.</p>
  					   </div>
                     </div>
                 </div>
@@ -320,21 +320,19 @@
 <!-- Footer -->
 <footer class="page-footer">
   <div class="gradient"></div>
+
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
-
       <!-- Grid row -->
       <div class="row">
-
         <!-- Grid column -->
         <div class="col-lg-6 col-md-12 col-12 content">
 
           <!-- Content -->
           <a href="index"><img src="jumper/images/logo2.png" alt="footer-logo"></a>
-          <p>BOP - an application designed, developed, and engineered  to automate business operating permit processes & transactions (billing, revenue collection, payments) and fast track invoicing and receipts of all registered businesses within the district. </p>
+          <p>BOP - an application designed, developed, and engineered  to automate business operating permit processes & transactions (billing, revenue collection, payments) and fast track invoicing, receipts and payments history of all registered businesses within the district. </p>
 
-          <a class="btn btn-primary text-uppercase" style="width: 180px" href="signin" role="button">sign in</a>
-
+          <a class="btn btn-light text-uppercase" style="width: 180px; background-color:#ffff00;border:#ffff00;" href="signin" role="button">sign in now</a>
 
         </div>
         <!-- Grid column -->
@@ -404,11 +402,15 @@
 
    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script> -->
     <!-- Custom JavaScript -->
+    <script src="jumper/js/jquery.slim.min.js"></script>
+    <script src="jumper/js/popper.min.js"></script>
+    <script src="jumper/js/bootstrap.min.js"></script>
+    <script src="jumper/js/ekko-lightbox.js"></script>
     <script src="jumper/js/animate.js"></script>
     <script src="jumper/js/custom.js"></script>
     <script>
